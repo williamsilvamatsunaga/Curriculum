@@ -32,6 +32,9 @@ body{
     background-color: #ffffff;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border-bottom: 1px solid var(--linha-divisao);
+
+    position:sticky;
+    top: 0;
 }
 
 .header-h1{
@@ -52,24 +55,32 @@ body{
 }
 
 .section-pag1{
-    background-image: url(Imagens/Baixar\ código-fonte\ do\ desktop\ e\ papel\ de\ parede\ por\ codificação\ e\ programação_\ gratuitamente.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: 50vh;
+    background-color: red;
+    background-image: url(Imagens/Baixar\ código-fonte\ do\ desktop\ e\ papel\ de\ parede\ por\ codificação\ e\ programação_\ gratuitamente.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;   
 }
 
 .section-pag1-div1{
-    background-color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    background-color: blue;
+    width: 40%;
+    margin: auto;
+    margin-top: 68px;
+}
+
+.section-pag1-div1-img{
+    width: 18rem;
+    height: 18rem;
 }
 
 .section-pag1-div2{
-
-}
-
-.section-pag1-div2 img{
-    width: 6cm;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
