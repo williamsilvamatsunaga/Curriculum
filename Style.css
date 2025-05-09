@@ -31,7 +31,7 @@ body{
     align-items: center;
     background-color: #ffffff;
     padding: 1rem 1.5rem 1rem 1.5rem;
-    border-bottom: 1px solid var(--linha-divisao);
+    border-bottom: px solid var(--linha-divisao);
 
     position:sticky;
     top: 0;
@@ -56,31 +56,69 @@ body{
 
 .section-pag1{
     width: 100%;
-    height: 50vh;
+    height: 57vh;
     background-color: red;
     background-image: url(Imagens/Baixar\ código-fonte\ do\ desktop\ e\ papel\ de\ parede\ por\ codificação\ e\ programação_\ gratuitamente.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    border-bottom: 1px solid var(--linha-divisao);  
+}
+
+.section-pag1-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.6rem;
 }
 
 .section-pag1-div1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: blue;
-    width: 40%;
+    background-color: #ffffff;
+    height: 20rem;
+    width: 42.6%;
     margin: auto;
-    margin-top: 68px;
+    margin-top: 60px;
+    margin-bottom: 1rem;
 }
 
 .section-pag1-div1-img{
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .section-pag1-div2{
     padding-right: 2rem;
     padding-left: 2rem;
+}
+
+.section-pag1-div2 h1{
+    font-size: 1.3rem;
+}
+
+.section-pag1-div2 h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-pag1-div2 p{
+    font-size: 1rem;
+}
+
+.section-pag1-div2-p{
+    margin-bottom: 1rem;
+}
+
+.section-pag1-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42.6%;
+    margin: auto;
+    margin-top: -1rem;
+    background-color: var(--texto-link);
+    height: 3rem;
 }
