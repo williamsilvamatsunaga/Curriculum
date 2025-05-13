@@ -4,6 +4,7 @@
     --texto-titulo: #1a1a1a;
     --texto-link: #005f99;
     --linha-divisao: #dddddd;
+    --pagina: #eeeeee;
 }
 
 *{
@@ -93,6 +94,7 @@ body{
     height: 20rem;
     border-radius: 0 0 100px 0;
     border-right: 1px solid var(--linha-divisao);
+    margin-left: 6px;
 }
 
 .section-pag1-div2{
@@ -143,4 +145,21 @@ body{
 
 .section-pag1-div4 h2{
     padding-bottom: 1rem;
+}
+
+.section-pag2{
+    width: 100%;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-color: var(--pagina);
+}
+
+.section-pag2-div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-pag2-div1{
+    padding-top: 20%;
 }
